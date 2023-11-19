@@ -19,6 +19,7 @@ fun myProfile() {
     // Mencetak nilai variabel ke layar
     println("Nama Depan: $namaDepan")
     println("Nama Belakang: $namaBelakang")
+    println("Nama Lengkap : $namaDepan $namaBelakang")
     println("Umur: $umur tahun")
     println("Status: ${if (status) "Single" else "Tidak Single"}")
     println("========================================================")
